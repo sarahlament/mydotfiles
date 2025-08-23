@@ -1,0 +1,31 @@
+### plugins for oh-my-zsh
+plugins=(
+    git
+    sudo
+    web-search
+    archlinux
+    copyfile
+    copybuffer
+    dirhistory
+)
+
+## some other defaults for oh-my-zsh
+ZSH_COMPDUMP="${CACHE}/zsh/.zcompdump-${ZSH_VERSION}"
+zstyle ':omz:update' mode auto
+zstyle ':omz:update' verbsoty minimal
+zstyle ':omz:update' frequency 7
+source $ZSH/oh-my-zsh.sh
+
+### enable fzf bindings for reverse search
+source <(fzf --zsh)
+
+### defaults for history options
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
+### and let's use a posh theme
+POSH=catppuccino_mocha
+eval "$(oh-my-posh init zsh --config catppuccin_mocha)"
+
