@@ -26,6 +26,6 @@ SAVEHIST=10000
 setopt appendhistory
 
 ### and let's use a posh theme
-POSH=catppuccino_mocha
+POSH=ys
 eval "$(oh-my-posh init zsh --config catppuccin_mocha)"
 
