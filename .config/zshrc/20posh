@@ -25,7 +25,10 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
+### I prefer having pushd/popd for when *I* want it, so let's disable something
+unsetopt autopushd
+
 ### and let's use a posh theme
 POSH=ys
-eval "$(oh-my-posh init zsh --config catppuccin_mocha)"
+eval "$(oh-my-posh init zsh --config $POSH)"
 
