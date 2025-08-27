@@ -29,6 +29,6 @@ setopt appendhistory
 unsetopt autopushd
 
 ### and let's use a posh theme
-POSH=ys
+POSH="~/.config/ohmyposh/zen.toml"
 eval "$(oh-my-posh init zsh --config $POSH)"
 

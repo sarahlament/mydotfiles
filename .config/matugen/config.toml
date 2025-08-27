@@ -3,7 +3,7 @@ caching = true
 
 [templates.hyprland]
 input_path = '~/.config/matugen/templates/hyprland-colors.conf'
-output_path = '~/.config/hypr/colorschemes/matugen.conf'
+output_path = '~/.config/hypr/matugen.conf'
 post_hook = 'hyprctl reload'
 
 [templates.waybar]
