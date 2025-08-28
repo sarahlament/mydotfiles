@@ -4,7 +4,7 @@
 # let's not include matugen outputs
 .config/hypr/matugen.conf
 .config/waybar/matugen.css
-.confg/kitty/matugen.conf
+.config/kitty/matugen.conf
 .config/rofi/colors.rasi
 .config/btop/themes/matugen.theme
 
