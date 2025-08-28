@@ -1,2 +1,10 @@
+# let's ignore files that are symlinks to variants
 .config/kitty/kitty.conf
-matugen.*
+
+# let's not include matugen outputs
+.config/hypr/matugen.conf
+.config/waybar/matugen.css
+.confg/kitty/matugen.conf
+.config/rofi/colors.rasi
+.config/btop/themes/matugen.theme
+
