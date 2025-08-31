@@ -5,3 +5,5 @@
 [user]
 	email = 4612427+sarahlament@users.noreply.github.com
 	name = Sarah Lament
+[pull]
+	rebase = true
