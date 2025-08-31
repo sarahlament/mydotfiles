@@ -1,0 +1,15 @@
+### some aliases for ease of use
+alias c='clear'
+alias nf='fastfetch'
+alias pf='fastfetch'
+alias ff='fastfetch'
+alias shutdown='systemctl shutdown'
+alias reboot='systemctl reboot'
+alias hibernate='systemctl hibernate'
+alias v='$EDITOR'
+alias vim='$EDITOR'
+alias edit='$EDITOR'
+
+## now, let's alias some diferent tools I want to use instead of defaults
+alias cat='bat'
+

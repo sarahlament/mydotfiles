@@ -1,0 +1,4 @@
+### finally let's set some auto-starting programs
+if [[ $(tty) == *"pts"* ]]; then
+    ff
+fi
